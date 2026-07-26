@@ -4,4 +4,4 @@ with open("books.json", "r") as file:
 
 
 for book, author in books.items():
-  print(book, author)
+  print(book.lower(), author.title())
